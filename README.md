@@ -39,7 +39,7 @@ uv sync
 Run the crawler with the following command:
 
 ```sh
-python main.py <base_url> <max_concurrency> <max_pages>
+uv run main.py <base_url> <max_concurrency> <max_pages>
 ```
 
 Arguments:
@@ -49,7 +49,7 @@ Arguments:
 
 Example:
 ```sh
-python main.py https://blog.boot.dev 5 100
+uv run main.py https://blog.boot.dev 5 100
 ```
 
 ## Testing
@@ -57,7 +57,7 @@ python main.py https://blog.boot.dev 5 100
 Run the test suite with:
 
 ```sh
-python -m unittest
+uv run -m unittest
 ```
 
 ## Project Structure
