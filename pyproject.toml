@@ -8,4 +8,6 @@ dependencies = [
     "aiohttp==3.12.12",
     "beautifulsoup4==4.13.4",
     "requests==2.32.4",
+    "matplotlib>=3.10.5",
+    "networkx==3.2.1",
 ]

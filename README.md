@@ -7,6 +7,7 @@ An asynchronous web crawler that maps the internal linking structure of websites
 - Asynchronous crawling with configurable concurrency
 - HTML parsing and link extraction
 - Internal link tracking and reporting
+- Generates network graph visualization of site structure
 - Customizable crawl limits
 
 ## Requirements
@@ -51,6 +52,12 @@ Example:
 ```sh
 uv run main.py https://blog.boot.dev 5 100
 ```
+## Output
+
+The crawler produces:
+
+1. A console report showing internal link counts
+2. A [website_graph.png](website_graph.png) visualization file showing the site structure
 
 ## Testing
 
