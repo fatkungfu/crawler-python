@@ -1,7 +1,7 @@
 [project]
 name = "crawler-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "An asynchronous web crawler that maps the internal linking structure of websites."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
